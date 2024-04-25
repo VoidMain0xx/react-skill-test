@@ -46,6 +46,7 @@
 .tooltip-container {
     position: relative;
     display: inline-block;
+    margin: 100px;
 }
 
 .tooltip {
@@ -56,6 +57,7 @@
     border-radius: 4px;
     z-index: 1;
     visibility: visible;
+    margin: 0px 15px;
 }
 
 .tooltip.top {
@@ -80,6 +82,7 @@
     top: 50%;
     left: 100%;
     transform: translateY(-50%);
+    padding: 15px;
 }
 
 .tooltip span {

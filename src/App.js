@@ -6,7 +6,7 @@ import './App.css'
 const App = () => {
   return (
     <div className="app-container">
-    <Tooltip position="top" text="Thanks For Hovering I am A tool Tip">
+    <Tooltip position="right" text="Thanks For Hovering! I am A tool Tip">
       <button className="centered-button">Hover Me</button>
     </Tooltip>
   </div>
